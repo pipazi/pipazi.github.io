@@ -1,1 +1,1 @@
-[Please visit my website](pipazi.github.io)
+[pipazi.github.io](pipazi.github.io)
