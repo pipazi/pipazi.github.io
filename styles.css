@@ -483,13 +483,16 @@ img {
 
 #demo{
     position: relative;
+    margin-bottom:0px;
+    border:0px;
+    padding:0px;
 }
 
 #demo:after {
     position: relative;
     content: '';
     display: inline-block;
-    width: 2px;
+    width: 6px;
     height: 18px;
     top: 50%;
     transform: translateY(-50%);
