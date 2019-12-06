@@ -84,6 +84,8 @@ header {
     justify-content: center;
     text-align: right;
     top: 0px; }
+
+
 header h1,
 header h2 {
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif", HelveticaNeue-CondensedBlack;
@@ -441,3 +443,31 @@ img {
 
     article {
         margin-left: 0px; } }
+
+
+.box {
+    width: 0px;
+    height: 50px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.box p {
+    background: pink;
+}
+
+.to_top {
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid dodgerblue;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.to_bottom {
+    width: 0;
+    height: 0;
+    border-top: 20px solid dodgerblue;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
