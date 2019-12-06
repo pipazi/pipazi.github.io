@@ -14,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,12 +55,16 @@
     <configuration name="corner.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pipazi.github.io/.idea/corner.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pipazi.github.io/hello.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pipazi.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.hello.html" />
         <item itemvalue="JavaScript Debug.corner.html" />
       </list>
     </recent_temporary>
@@ -80,6 +84,7 @@
       <workItem from="1575602530151" duration="399000" />
       <workItem from="1575602970197" duration="151000" />
       <workItem from="1575603640231" duration="7093000" />
+      <workItem from="1575617086756" duration="5889000" />
     </task>
     <servers />
   </component>
