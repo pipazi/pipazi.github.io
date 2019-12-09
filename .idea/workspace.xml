@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6685f425-65d5-4178-9427-f6746187ede3" name="Default Changelist" comment="" />
+    <list default="true" id="6685f425-65d5-4178-9427-f6746187ede3" name="Default Changelist" comment="change header">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +30,7 @@
   <component name="ProjectId" id="1UaXREvSip3fqZdPctGvVslo1XF" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -85,6 +88,7 @@
       <workItem from="1575602970197" duration="151000" />
       <workItem from="1575603640231" duration="7093000" />
       <workItem from="1575617086756" duration="13947000" />
+      <workItem from="1575861373013" duration="260000" />
     </task>
     <servers />
   </component>
@@ -103,5 +107,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change header" />
+    <option name="LAST_COMMIT_MESSAGE" value="change header" />
   </component>
 </project>
