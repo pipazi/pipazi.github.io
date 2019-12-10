@@ -9,20 +9,23 @@
   <link href = "styles.css" rel = "stylesheet" type = "text/css">
   <script src = "https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
   <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+  <script src="https://cdn.bootcss.com/vue/2.5.16/vue.min.js"></script>
+  <script src="./backTop.js" type="text/javascript"></script>
 </head>
 
 <body>
 
-  <a href = "#top" style = "position:absolute; z-index:5555; right:120px; bottom:30px;">
-      <div class = "box">
-          <div class = "to_top"></div>
+
+  <a href = "#top">
+      <div id="back-to-top" class="back-to-top">
+          <span><center>Back</center></span>
+          <span><center>To</center></span>
+          <span><center>Top</center></span>
       </div>
   </a>
-  <a href = "#bottom" style = "position:absolute; z-index:5555; right:90px; bottom:30px;">
-      <div class = "box">
-          <div class = "to_bottom"></div>
-      </div>
-  </a>
+
+
+
 
   <a href = "https://github.com/pipazi" class = "github-corner" aria-label = "View on GitHub">
     <svg width = "80" height = "80" viewBox = "0 0 250 250" style = "fill:#151513; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden = "true">
@@ -38,20 +41,17 @@
       <div class = "content">
           <div class = "about">
               <header>
-                  <h1>Pipazi</h1>
-                  <h2>Data Scientist </h2>
-
+                  <h1>Shaowen Sun</h1>
+                  <h2>Data Scientist</h2>
+                  <br><br>
                   <p>
-                      Hi, Welcome to My Page.<br><br>
                       <img src = "https://img.shields.io/static/v1?label=Python&message=8/10&color=green">
                       <img src = "https://img.shields.io/static/v1?label=Scala&message=8/10&color=green">
+                      <img src = "https://img.shields.io/static/v1?label=Java&message=7/10&color=green">
                       <img src = "https://img.shields.io/static/v1?label=C/C%2B%2B&message=6/10&color=blue">
                       <img src = "https://img.shields.io/static/v1?label=MatLab&message=6/10&color=blue">
-                      <img src = "https://img.shields.io/static/v1?label=Html&message=4/10&color=red">
-                  </p>
-
-                  <p>
-                      Personal Info:<br><br>
+                      <img src = "https://img.shields.io/static/v1?label=R&message=4/10&color=red">
+                      <br><br>
                       <a href = "CV.pdf"><img src = "Me.png"></a>
                   </p>
 
@@ -68,37 +68,105 @@
 
 
           <article id = "top">
-              <h1><a>Latest</a></h1>
-              <p><em>bla bla bla bla.</em></p>
+              <h1><a>About Me</a></h1>
 
-              <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.</p>
+              <p>I'm currently a Data Scientist in China Unicom.</p>
 
-              <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.</p>
+              <p>My research interest spans from Natural Language Processing to Machine Learning.</p>
 
-              <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.</p>
+              <p>Besides, I'm also broadly interested in System Scurity and Communication Area.</p>
 
-              <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.</p>
               <div id = "demo"></div>
           </article>
 
           <article>
-              <h1><a>First</a></h1>
-              <p><em>bla bla bla bla.</em></p>
+              <h1><a>Publications</a></h1>
 
-              <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.</p>
+              <p><em>2019</em></p>
+              <p>&bull; Xue, H., Sun, S., Venkataramani, G., & Lan, T. (2019). Machine Learning-Based Analysis of Program Binaries: A Comprehensive Study. IEEE Access, 7, 65889-65912</p>
+              <p>&bull; Sun, S. (2019). Network-Based Protocol Implementation Engineering and a Study on Machine Learning Based Binary Code Analysis (Doctoral dissertation, The George Washington University).</p>
 
-              <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.</p>
+              <p><em>2018</em></p>
+              <p>&bull; Yurong Chen, Shaowen Sun, Tian Lan, Guru Venkataramani. 2018. TOSS: Tailoring Online Server Systems through Binary Feature Customization. In The 2018 Workshop on Forming and Ecosystem Around Software Transformation (FEAST ’18), October 19, 2018, Toronto, ON, Canada. ACM, New York, NY, USA, 7 pages</p>
 
-              <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.</p>
+              <p><em>2017</em></p>
+              <p>&bull; Designed Image Recognition Based on Artificial Neural Network with MATLAB (Bachelor dissertation, North China University of Technology).</p>
 
-              <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.</p>
           </article>
+
+
+
+
+          <article>
+              <h1><a>Talks</a></h1>
+              <p>&bull; Clone-Slicer: Detecting Domain Specific Binary Code Clones through Program Slicing (FEAST ’18) </p>
+              <p>&bull; TOSS: Tailoring Online Server Systems through Binary Feature Customization (FEAST ’18) </p>
+              <p>&bull; POSTER——MORPH: Enhancing System Security through Interactive Customization of Application and Communication Protocol Features (CCS ’18)</p>
+          </article>
+
+
+          <article>
+              <h1><a>Education</a></h1>
+              
+              <table>
+              <td width="380px">
+              <p>ECE Department <br> George Washington University <br> (Oct 2017 &mdash; May 2019) <br> Master Student <p>
+              </td>
+              <td><img src="GWU.gif" width=120></td>
+              </tr>
+
+              <tr>
+              <td width="380px">
+              <p>ECE Department <br> North China Uniervsity of Technology <br> (Sep 2013 &mdash; Jun 2017) <br> Bachelor Student <p>
+              </td>
+              <td><img src="ncut.png" width=120></td>
+              </tr>
+              </table>
+
+          </article>
+
+
+
+          <article>
+              <h1><a>Work Experience</a></h1>
+              
+              <table>
+              <td width="380px">
+              <p>China Unicom Big Data, Beijing <br> (Nov 2019 &mdash; Present) <br> Data Scientist <p>
+              </td>
+              <td><img src="China_Unicom.png" width=120></td>
+              </tr>
+
+              <tr>
+              <td width="380px">
+              <p> PricewaterhouseCoopers, Beijing <br> (Oct 2019 &mdash; Nov 2019) <br> Consultant Intern <p>
+              </td>
+              <td><img src="pwc.png" width=120></td>
+              </tr>
+
+              <tr>
+              <td width="380px">
+              <p> George Washington Univesity, D.C. <br> (May 2018 &mdash; Aug 2018) <br> Research Assistant <p>
+              </td>
+              <td><img src="GWU.gif" width=120></td>
+              </tr>
+
+              <tr>
+              <td width="380px">
+              <p> Institute of Computing Technology, Chinese Academy of Science, Beijing <br> (May 2018 &mdash; Aug 2018) <br> Research Assistant <p>
+              </td>
+              <td><img src="ict.png" width=120></td>
+              </tr>
+              </table>
+
+          </article>
+
 
           <article id = "bottom">
               <p>Congratulation, you get to the end and leave footprints.</p>
               <script type = "text/javascript" src = "//rf.revolvermaps.com/0/0/7.js?i=52uqgubqv0x&amp;m=7&amp;c=ff0000&amp;cr1=ffffff&amp;sx=0" async = "async">
               </script><br>
-              <span style = "font-family:arial;">&copy; 2019 Pipazi · Last Update: 12/06/2019</span>
+              <span style = "font-family:arial;"> &copy; 2019 Pipazi &bull; Last Update: 12/06/2019</span>
           </article>
 
       </div>
