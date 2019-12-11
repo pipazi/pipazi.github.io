@@ -33,7 +33,8 @@ section {
     max-width: 760px;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    margin: auto; }
+    margin: auto;
+}
 
 .pinned {
     background: #222;
@@ -91,7 +92,9 @@ header {
     flex-direction: column;
     justify-content: center;
     text-align: right;
-    top: 0px; }
+    top: 0px;
+}
+
 
 
 header h1,
@@ -407,6 +410,7 @@ img {
         margin-left: 0px; } }
 
 
+/* Github Corner */
 .github-corner:hover .octo-arm{
     animation:octocat-wave 560ms ease-in-out
 }
@@ -453,41 +457,13 @@ img {
         margin-left: 0px; } }
 
 
-.box {
-    width: 0px;
-    height: 50px;
-    text-align: center;
-    margin: 0px auto;
-}
-
-.box p {
-    background: pink;
-}
-
-.to_top {
-    width: 0;
-    height: 0;
-    border-bottom: 35px solid dodgerblue;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-}
-
-.to_bottom {
-    width: 0;
-    height: 0;
-    border-top: 35px solid dodgerblue;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-}
-
-
+/* Fake Cursor Display */
 #demo{
     position: relative;
     margin-bottom:0px;
     border:0px;
     padding:0px;
 }
-
 #demo:after {
     position: relative;
     content: '';
@@ -498,7 +474,6 @@ img {
     transform: translateY(-50%);
     animation: blink 1.2s infinite steps(1, start);
 }
-
 @keyframes blink {
     0%, 100% {
         background-color: #000;
@@ -508,6 +483,8 @@ img {
     }
 }
 
+
+/* Back to top */
 .back-to-top {
 	position: fixed;
 	bottom: 30px;
@@ -518,26 +495,32 @@ img {
 	padding: 8px 10px;
 	cursor: pointer;
 }
- 
 .back-to-top:hover {
 	background: #5AC4D1;
 }
- 
 .back-to-top:hover span {
 	color: white;
 }
- 
 .back-to-top span {
 	display: block;
 }
- 
 .page {
 	width: 100%;
 	height: 400px;
 	line-height: 400px;
 	text-align: center;
 }
- 
 .page:nth-child(odd) {
 	background: white;
+}
+
+/* Pic Fading Big */
+.test_a {
+    overflow: hidden;
+}
+.test_a img {
+}
+.test_a:hover img {
+    transform: scale(1.1);
+    transition: all 1s ease 0s;
 }
