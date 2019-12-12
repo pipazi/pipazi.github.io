@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6685f425-65d5-4178-9427-f6746187ede3" name="Default Changelist" comment="change header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,19 +58,19 @@
     <configuration name="corner.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pipazi.github.io/.idea/corner.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="gg.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pipazi.github.io/gg.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pipazi.github.io/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pipazi.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="tagcloud.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pipazi.github.io/tagcloud.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.gg.html" />
+        <item itemvalue="JavaScript Debug.tagcloud.html" />
         <item itemvalue="JavaScript Debug.hello.html" />
         <item itemvalue="JavaScript Debug.corner.html" />
       </list>
@@ -96,7 +95,16 @@
       <workItem from="1575861373013" duration="260000" />
       <workItem from="1576028150800" duration="3740000" />
       <workItem from="1576051351060" duration="2953000" />
+      <workItem from="1576112796277" duration="266000" />
     </task>
+    <task id="LOCAL-00001" summary="0.272">
+      <created>1576113006910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576113006910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change header" />
-    <option name="LAST_COMMIT_MESSAGE" value="change header" />
+    <MESSAGE value="0.272" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.272" />
   </component>
 </project>
