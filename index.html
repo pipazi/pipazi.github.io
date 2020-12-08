@@ -5,8 +5,8 @@
   <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
   <meta charset = "UTF-8">
   <title>PIPAZI</title>
-  <link rel = "icon" href = "favicon.ico" sizes = "32x32">
-  <link href = "styles.css" rel = "stylesheet" type = "text/css">
+  <link rel = "icon" href = "img/favicon.ico" sizes = "32x32">
+  <link href = "css/styles.css" rel = "stylesheet" type = "text/css">
     <script src = "https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
   <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
     <script src="https://cdn.bootcss.com/vue/2.5.16/vue.min.js"></script>
@@ -18,9 +18,9 @@
   <! –– Back to top icon ––>
   <a href = "#top">
       <div id="back-to-top" class="back-to-top">
-          <span><center>Back</center></span>
-          <span><center>To</center></span>
-          <span><center>Top</center></span>
+          <span style="text-align: center;">Back</span>
+          <span style="text-align: center;">To</span>
+          <span style="text-align: center;">Top</span>
       </div>
   </a>
 
@@ -41,25 +41,24 @@
           <div class = "about">
               <header>
                   <h1>Shaowen Sun</h1>
-                  <h2>Data Scientist</h2>
+                  <h2>Software Engineer in Big Data</h2>
                   <br><br>
                   <! –– Shields Icon and Knowledge Graph ––>
                   <p>
                       <img src = "https://img.shields.io/static/v1?label=Python&message=8/10&color=green">
-                      <img src = "https://img.shields.io/static/v1?label=Scala&message=8/10&color=green">
-                      <img src = "https://img.shields.io/static/v1?label=Java&message=7/10&color=green">
-                      <img src = "https://img.shields.io/static/v1?label=C/C%2B%2B&message=6/10&color=blue">
-                      <img src = "https://img.shields.io/static/v1?label=MatLab&message=6/10&color=blue">
-                      <img src = "https://img.shields.io/static/v1?label=HTML&message=4/10&color=red">
+                      <img src = "https://img.shields.io/static/v1?label=Scala&message=6/10&color=blue">
+                      <img src = "https://img.shields.io/static/v1?label=Flink&message=6/10&color=blue">
+                      <img src = "https://img.shields.io/static/v1?label=Spark&message=6/10&color=blue">
+                      <img src = "https://img.shields.io/static/v1?label=recommender system&message=4/10&color=red">
                       <br><br>
-                      <a href = "tagcloud.html" class = "test_a"><img src = "Me.png"></a>
+                      <a href = "tagcloud.html" class = "test_a"><img src = "img/Me.png"></a>
                   </p>
                   <! –– Contact Info ––>
                   <p>
                       Contact Me:<br><br>
-                      <a href = "http://github.com/pipazi" class = "test_a"><img src = "github.ico" height = "32px"></a>
-                      <a href = "https://www.researchgate.net/profile/Shaowen_Sun" class = "test_a"><img src = "rg.png" height = "32px"></a>
-                      <a href = "mailto:sunshaowenbj@gmail.com" target = "_blank" class = "test_a"><img src = "email.ico" height = "32px"></a>
+                      <a href = "http://github.com/pipazi" class = "test_a"><img src = "img/github.ico" height = "32px"></a>
+                      <a href = "https://www.researchgate.net/profile/Shaowen_Sun" class = "test_a"><img src = "img/rg.png" height = "32px"></a>
+                      <a href = "mailto:sunshaowenbj@gmail.com" target = "_blank" class = "test_a"><img src = "img/email.ico" height = "32px"></a>
                   </p>
 
                   <br><br><br>
@@ -71,94 +70,79 @@
           <article id = "top">
               <h1><a>About Me</a></h1>
 
-              <p>I'm currently a Data Scientist in China Unicom.</p>
+              <p>I'm currently a Big Data Software Engineer in China Unicom.</p>
 
-              <p>My research interest spans from Natural Language Processing to Machine Learning.</p>
-
-              <p>Besides, I'm also broadly interested in System Scurity and Communication Area.</p>
+              <p>My research interest spans from big data analytics frameworks to recommender system.</p>
 
               <div id = "demo"></div>
           </article>
 
-          <! –– Section 2 : Publications ––>
-          <article>
-              <h1><a>Publications</a></h1>
-
-              <p><em>2019</em></p>
-              <p>&bull; Xue, H., Sun, S., Venkataramani, G., & Lan, T. (2019). Machine Learning-Based Analysis of Program Binaries: A Comprehensive Study. IEEE Access, 7, 65889-65912.</p>
-              <p>&bull; Sun, S. (2019). Network-Based Protocol Implementation Engineering and a Study on Machine Learning Based Binary Code Analysis (Doctoral dissertation, The George Washington University).</p>
-
-              <p><em>2018</em></p>
-              <p>&bull; Yurong Chen, Shaowen Sun, Tian Lan, Guru Venkataramani. 2018. TOSS: Tailoring Online Server Systems through Binary Feature Customization. In The 2018 Workshop on Forming and Ecosystem Around Software Transformation (FEAST ’18), October 19, 2018, Toronto, ON, Canada. ACM, New York, NY, USA, 7 pages.</p>
-
-              <p><em>2017</em></p>
-              <p>&bull; Designed Image Recognition Based on Artificial Neural Network with MATLAB (Bachelor dissertation, North China University of Technology).</p>
-
-          </article>
-
-          <! –– Section 3 : Talks ––>
-          <article>
-              <h1><a>Talks</a></h1>
-              <p>&bull; Clone-Slicer: Detecting Domain Specific Binary Code Clones through Program Slicing (FEAST ’18) </p>
-              <p>&bull; TOSS: Tailoring Online Server Systems through Binary Feature Customization (FEAST ’18) </p>
-              <p>&bull; POSTER——MORPH: Enhancing System Security through Interactive Customization of Application and Communication Protocol Features (CCS ’18)</p>
-          </article>
-
-          <! –– Section 4 : Education ––>
-          <article>
-              <h1><a>Education</a></h1>
-              
-              <table>
-              <td width="380px">
-              <p> George Washington University <br> ECE Department <br> (Oct 2017 &mdash; May 2019) <br> Master Student <p>
-              </td>
-              <td><img src="GWU.gif" width=120></td>
-              </tr>
-
-              <tr>
-              <td width="380px">
-              <p> North China University of Technology <br> ECE Department <br> (Sep 2013 &mdash; Jun 2017) <br> Bachelor Student <p>
-              </td>
-              <td><img src="ncut.png" width=120></td>
-              </tr>
-              </table>
-
-          </article>
-
-          <! –– Section 5 : Work Experience ––>
+          <! –– Section 2 : Work Experience ––>
           <article>
               <h1><a>Work Experience</a></h1>
-              
+
               <table>
               <td width="380px">
               <p>China Unicom Big Data, Beijing <br> (Nov 2019 &mdash; Present) <br> Data Scientist <p>
               </td>
-              <td><img src="China_Unicom.png" width=120></td>
+              <td><img src="img/China_Unicom.png" width=120></td>
               </tr>
 
               <tr>
               <td width="380px">
               <p> PricewaterhouseCoopers, Beijing <br> (Oct 2019 &mdash; Nov 2019) <br> Consultant Intern <p>
               </td>
-              <td><img src="pwc.png" width=120></td>
+              <td><img src="img/pwc.png" width=120></td>
               </tr>
 
               <tr>
               <td width="380px">
               <p> George Washington University, D.C. <br> (May 2018 &mdash; Aug 2018) <br> Research Assistant <p>
               </td>
-              <td><img src="GWU.gif" width=120></td>
+              <td><img src="img/GWU.gif" width=120></td>
               </tr>
 
               <tr>
               <td width="380px">
               <p> Institute of Computing Technology, Chinese Academy of Science, Beijing <br> (May 2018 &mdash; Aug 2018) <br> Research Assistant <p>
               </td>
-              <td><img src="ict.png" width=120></td>
+              <td><img src="img/ict.png" width=120></td>
               </tr>
               </table>
 
           </article>
+
+          <! –– Section 3 : Education ––>
+          <article>
+              <h1><a>Education</a></h1>
+
+              <table>
+              <td width="380px">
+              <p> George Washington University <br> ECE Department <br> (Oct 2017 &mdash; May 2019) <br> Master Student <p>
+              </td>
+              <td><img src="img/GWU.gif" width=120></td>
+              </tr>
+
+              <tr>
+              <td width="380px">
+              <p> North China University of Technology <br> ECE Department <br> (Sep 2013 &mdash; Jun 2017) <br> Bachelor Student <p>
+              </td>
+              <td><img src="img/ncut.png" width=120></td>
+              </tr>
+              </table>
+
+          </article>
+
+          <! –– Section 4 : Publications ––>
+          <article>
+              <h1><a>Publications</a></h1>
+              <p>&bull; Xue, H., Sun, S., Venkataramani, G., & Lan, T. (2019). Machine Learning-Based Analysis of Program Binaries: A Comprehensive Study. IEEE Access, 7, 65889-65912.</p>
+              <p>&bull; Sun, S. (2019). Network-Based Protocol Implementation Engineering and a Study on Machine Learning Based Binary Code Analysis (Doctoral dissertation, The George Washington University).</p>
+              <p>&bull; Yurong Chen, Shaowen Sun, Tian Lan, Guru Venkataramani. 2018. TOSS: Tailoring Online Server Systems through Binary Feature Customization. In The 2018 Workshop on Forming and Ecosystem Around Software Transformation (FEAST ’18), October 19, 2018, Toronto, ON, Canada. ACM, New York, NY, USA, 7 pages.</p>
+              <p>&bull; Designed Image Recognition Based on Artificial Neural Network with MATLAB (Bachelor dissertation, North China University of Technology).</p>
+
+          </article>
+
 
           <! –– Section 6 : Visitor Static Plugin(Bottom) ––>
           <article id = "bottom">

@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6685f425-65d5-4178-9427-f6746187ede3" name="Default Changelist" comment="change header">
+    <list default="true" id="6685f425-65d5-4178-9427-f6746187ede3" name="Default Changelist" comment="format">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/China_Unicom.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/China_Unicom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWU.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/GWU.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Me.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Me.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/email.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/github.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ict.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/ict.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncut.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/ncut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwc.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/pwc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/rg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +32,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -31,9 +46,11 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GO_FMT" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,6 +58,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\pipazi.github.io\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspace\pipazi.github.io\css" />
+      <recent name="C:\Workspace\pipazi.github.io\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -96,6 +122,7 @@
       <workItem from="1576028150800" duration="3740000" />
       <workItem from="1576051351060" duration="2953000" />
       <workItem from="1576112796277" duration="266000" />
+      <workItem from="1607419869770" duration="1980000" />
     </task>
     <task id="LOCAL-00001" summary="0.272">
       <created>1576113006910</created>

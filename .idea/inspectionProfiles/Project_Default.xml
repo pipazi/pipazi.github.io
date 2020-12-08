@@ -1,0 +1,90 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="opacity" />
+            <item index="1" class="java.lang.String" itemvalue="count" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="dm_type" />
+            <item index="7" class="java.lang.String" itemvalue="center" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="coverage" />
+            <item index="1" class="java.lang.String" itemvalue="eventlet" />
+            <item index="2" class="java.lang.String" itemvalue="kazoo" />
+            <item index="3" class="java.lang.String" itemvalue="apache-airflow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="typing.Iterator.__getitem__" />
+          <option value="string" />
+          <option value="execute" />
+          <option value="所用的sql方言" />
+          <option value="PRECISION" />
+          <option value="格子边长" />
+          <option value="Warings" />
+          <option value="偏心率平方" />
+          <option value="长半轴" />
+          <option value="attribute" />
+          <option value="geohash" />
+          <option value="tag" />
+          <option value="name" />
+          <option value="uid" />
+          <option value="province" />
+          <option value="area" />
+          <option value="district" />
+          <option value="aoi" />
+          <option value="poi" />
+          <option value="prov_id" />
+          <option value="start_time_min" />
+          <option value="start_time_max" />
+          <option value="insert_time" />
+          <option value="date_id" />
+          <option value="check_time" />
+          <option value="连接对象" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SqlDialectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
